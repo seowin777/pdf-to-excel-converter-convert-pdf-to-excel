@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF to Excel Converter was removed</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E3NSQ3V1HB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E3NSQ3V1HB');
+  gtag('event', 'uninstall', {extension: 'pdf-to-excel-converter-convert-pdf-to-excel'});
+  function why(reason) {
+    gtag('event', 'uninstall_' + reason, {extension: 'pdf-to-excel-converter-convert-pdf-to-excel'}); // one event per reason: shows up in GA Events as is
+    document.querySelector('main').innerHTML = '<h1>Thank you!</h1>';
+  }
+</script>
+<style>
+  :root { --bg:#fff; --text:#1f2328; --line:#d0d7de; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1f1f1f; --text:#e8eaed; --line:#3c4043; } }
+  body { margin:0; font:16px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width:520px; margin:0 auto; padding:48px 16px; text-align:center; }
+  button { display:block; width:100%; margin:8px 0; padding:12px; font:inherit; cursor:pointer;
+           background:none; color:inherit; border:1px solid var(--line); border-radius:8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Why did you remove PDF to Excel Converter?</h1>
+  <button onclick="why('wrong_table')">The table came out wrong</button>
+  <button onclick="why('scan')">My PDF is a scan</button>
+  <button onclick="why('nothing_happened')">Nothing happened or it didn't work</button>
+  <button onclick="why('cant_find')">I couldn't find how to open it</button>
+  <button onclick="why('no_need')">I only needed it once</button>
+</main>
+</body>
+</html>
